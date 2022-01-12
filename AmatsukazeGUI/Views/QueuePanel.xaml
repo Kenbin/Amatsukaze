@@ -873,7 +873,7 @@
                                 <Setter Property="Background" Value="#A0FFFF"/>
                             </DataTrigger>
                             <DataTrigger Binding="{Binding IsEncoding}" Value="True">
-                                <Setter Property="Background" Value="Green"/>
+                                <Setter Property="Background" Value="#77dd77"/>
                             </DataTrigger>
                             <DataTrigger Binding="{Binding IsError}" Value="True">
                                 <Setter Property="Background" Value="Red"/>
